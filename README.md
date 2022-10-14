@@ -16,7 +16,10 @@ Provides a gadget and a template to add the Search Builder interface (datatables
 
 ## via PageExchange
 
-* add the following to the bottom of your `LocalSettings.php`: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/mediawiki-pages-FilteredDatatable/master/page-exchange.json';`
+* add the following to the bottom of your `LocalSettings.php`: 
+```
+$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/mediawiki-pages-FilteredDatatable/master/page-exchange.json';
+```
 * navigate to `Special:Packages` and install the package
 * (optional) run `php maintenance/runJobs.php`
 
