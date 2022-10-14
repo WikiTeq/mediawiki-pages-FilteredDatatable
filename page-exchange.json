@@ -33,6 +33,11 @@
                     "name": "Datatable",
                     "namespace": "NS_TEMPLATE",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/Template%2FDatatable.mediawiki"
+                },
+                {
+                    "name": "Wiki-datatable-row",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/Template%2FWiki-datatable-row.mediawiki"
                 }
             ],
             "requiredExtensions": [
