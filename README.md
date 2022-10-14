@@ -1,6 +1,6 @@
 # Filtered Datatable package
 
-Provides a gadget and a template to add the Search Builder interface (datatables) to the mediawiki table.
+Provides a gadget and a template to add the Search Builder interface (datatables) to the mediawiki table (SMW).
 
 # Requirements
 
