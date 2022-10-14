@@ -1,0 +1,16 @@
+<div class="alert alert-success">You can filter by year, month, article name, using search operators or fulltext.</div>
+{{Datatable
+  |{{#ask: [[:+]][[Modification date::+]]
+     |limit=5000
+     |searchlabel=
+     |mainlabel=Article
+     |?Modification date#-F[Y]
+     |?Modification date#-F[F]
+     |format=plainlist
+     |template=Wiki-datatable-row
+     |named args=no
+   }}
+|Article
+|Year
+|Month
+}}

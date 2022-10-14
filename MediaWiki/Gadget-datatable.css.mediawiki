@@ -1,0 +1,7 @@
+
+select.dtsb-data option:empty {
+	display: none !important;
+}
+button.dtsb-clearAll {
+	margin-right: 2rem;
+}

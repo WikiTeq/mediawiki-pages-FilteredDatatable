@@ -1,0 +1,44 @@
+{
+    "publisher": "WikiTeq",
+    "author": "WikiTeq",
+    "language": "en",
+    "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-FilteredDatatable",
+    "packages": {
+        "ResourceDirectory": {
+            "globalID": "61fd7244-3e89-4e22-bc03-6f89fcd9d2ac",
+            "description": "Simplistic filtering interface for semantic data powered by datatables",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Gadget-datatable",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FGadget-datatable.mediawiki"
+                },
+                {
+                    "name": "Gadget-datatable.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FGadget-datatable.js.mediawiki"
+                },
+                {
+                    "name": "Gadget-datatable.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FGadget-datatable.css.mediawiki"
+                },
+                {
+                    "name": "Datatable",
+                    "namespace": "NS_PROJECT",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/Project%2FDatatable.mediawiki"
+                },
+                {
+                    "name": "Datatable",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/Template%2FDatatable.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+		        "SemanticMediaWiki",
+		        "Gadgets"
+	        ]
+        }
+    }
+}

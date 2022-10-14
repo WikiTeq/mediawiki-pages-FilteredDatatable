@@ -1,0 +1,78 @@
+<includeonly>
+<table id="wiki-datatable">
+<!--<thead>-->
+<tr>
+<th data-colname="{{{2|}}}"></th>
+<th data-colname="{{{3|}}}"></th>
+<th data-colname="{{{4|}}}"></th>
+<th data-colname="{{{5|}}}"></th>
+<th data-colname="{{{6|}}}"></th>
+<th data-colname="{{{7|}}}"></th>
+<th data-colname="{{{8|}}}"></th>
+<th data-colname="{{{9|}}}"></th>
+<th data-colname="{{{10|}}}"></th>
+<th data-colname="{{{11|}}}"></th>
+</tr>
+<!--</thead>-->
+{{{1|}}}
+</table>
+</includeonly><noinclude>
+;Description
+Creates a table list that can be easily filtered using text patterns or parameters. 
+
+;Concept
+The template wraps a plainlist produced by a semantic query into a <code>table</code> tag and formats the rows using [[Template:Wiki-datatable-row]]. After that, datatables magic is applied. The semantic query can have up to 10 printouts (columns). Only the first column is shown; other columns are hidden but remain searchable and can be used as filters.
+
+;Syntax
+Create a semantic query with these mandatory parameters and values:
+* <code>|format=plainlist</code>
+* <code>|template=Wiki-datatable-row</code>
+* <code>|named args=no</code>
+* <code>|searchlabel=</code>
+
+Then wrap it in a template call:
+<pre>
+{{Datatable|
+{{#ask: [[:+]][[Modification date::+]]
+  |limit=5000
+  |searchlabel=
+  |?Modification date#-F[Y]
+  |?Modification date#-F[F]
+  |format=plainlist
+  |template=Wiki-datatable-row
+  |named args=no
+}}
+}}
+</pre>
+
+Then, add some column titles as parameters:
+<pre>
+{{Datatable|
+{{#ask: [[:+]][[Modification date::+]]
+  |limit=5000
+  |searchlabel=
+  |?Modification date#-F[Y]
+  |?Modification date#-F[F]
+  |format=plainlist
+  |template=Wiki-datatable-row
+  |named args=no
+}}
+|Article
+|Year
+|Month
+}}
+
+Each filter corresponds to a query printout. In this example, the Year filter corresponds to the <code>?Modification date#-F[Y]</code> printout, while the Month filter corresponds to the <code>?Modification date#-F[F]</code> printout.
+</pre>
+
+;Example
+* [[Project:Datatable]]
+
+;Assets
+This template uses the Datatable gadget:
+* [[Mediawiki:Gadget-datatable]]
+* [[Mediawiki:Gadget-datatable.js]]
+* [[Mediawiki:Gadget-datatable.css]]
+which must be defined in [[Mediawiki:Gadgets-definition]] as:
+<code>datatable[ResourceLoader|default]|datatable.js|datatable.css</code>
+</noinclude>
