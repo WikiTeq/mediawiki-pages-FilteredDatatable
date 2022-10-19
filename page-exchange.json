@@ -10,19 +10,14 @@
             "version": "0.1",
             "pages": [
                 {
-                    "name": "Gadget-datatable",
+                    "name": "Single-datatable.js",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FGadget-datatable.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FSingle-datatable.js.mediawiki"
                 },
                 {
-                    "name": "Gadget-datatable.js",
+                    "name": "Single-datatable.css",
                     "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FGadget-datatable.js.mediawiki"
-                },
-                {
-                    "name": "Gadget-datatable.css",
-                    "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FGadget-datatable.css.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-FilteredDatatable\/master\/MediaWiki%2FSingle-datatable.css.mediawiki"
                 },
                 {
                     "name": "Datatable",
