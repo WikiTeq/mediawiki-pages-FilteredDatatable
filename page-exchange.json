@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-FilteredDatatable",
     "packages": {
         "FilteredDatatable": {
-            "globalID": "61fd7244-3e89-4e22-bc03-6f89fcd9d2ac",
+            "globalID": "com.wikiteq.FilteredDatatable",
             "description": "Simplistic filtering interface for semantic data powered by datatables",
             "version": "0.1",
             "pages": [
@@ -36,9 +36,8 @@
                 }
             ],
             "requiredExtensions": [
-		        "SemanticMediaWiki",
-		        "Gadgets"
-	        ]
+		        "SemanticMediaWiki"
+	    ]
         }
     }
 }
